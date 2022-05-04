@@ -6,6 +6,8 @@ Django Seeding Data is Django app for seeding data in existing DB.
 Quick start
 -----------
 
+1. Run `pip install django-seeding-data` to install package
+
 1. Add "django_seeding_data" to your INSTALLED_APPS setting like this::
 
       INSTALLED_APPS = (
@@ -23,3 +25,7 @@ Quick start
 
 5. Run `python manage.py seeding seed` to apply new seeding files that was never applied on this DB instance.
 
+PyPi
+-----------
+
+https://pypi.org/project/django-seeding-data/
